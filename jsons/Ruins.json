@@ -13,7 +13,6 @@
 "uniques": ["Gain [150] [Culture]", "Only available <before founding a Pantheon>", "Only available <after [30] turns>"], 
 "color": "#cf8ff7" 
 },
-{ "name": "squatters willing to assist 
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
