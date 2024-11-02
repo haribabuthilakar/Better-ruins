@@ -17,7 +17,7 @@
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
 "weight": 4
-"uniques": ["[This Unit] gains [30] XP", "Only available <after [10] turns>"] 
+"uniques": ["[This Unit] gains [30] XP", "Only available <after turn number [10]>"] 
 }, 
 { 
 "name": "survivors (adds population to a city)", 
@@ -63,8 +63,7 @@
 "name": "an ancient prophecy", 
 "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
 "weight": 3
-"uniques": ["Only available <when religion is enabled>", "Gain enough Faith for [75]% of a Great Prophet","Unavailable after generating a Great Prophet",
-            "Only available <after founding a Pantheon>", "Only available <after [20] turns>"],
+"uniques": ["Only available <when religion is enabled>", "Gain enough Faith for [75]% of a Great Prophet", "Only available <after founding a Pantheon>", "Only available <after turn number [20]>"],
 "color": "#CDDDF4" 
 }
 //Deletions
