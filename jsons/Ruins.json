@@ -2,59 +2,48 @@
 { 
 "name": "discover cultural signs",
 "notification": "We have discovered cultural signs in the ruins! (+50 culture)",
-"weight": 4
+"weight": 4,
 "uniques": ["Gain [50] [Culture]", "Only available <before founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
-"weight": 4
-"uniques": ["Gain [150] [Culture]", "Only available <before founding a Pantheon>", "Only available <after [30] turns>"], 
+"weight": 4,
+"uniques": ["Gain [150] [Culture]", "Only available <after [30] turns>"], 
 "color": "#cf8ff7" 
 },
 { "name": "squatters willing to assist you", 
 "notification": "A [Great General] has joined us!", 
+"weight": 1,
 "uniques": ["Free [Great General] found in the ruins"], 
 "excludedDifficulties": ["Immortal", "Deity"] 
 },
-{
-"name": "squatters wishing to trade under your rule", 
-"notification": "A [Great Merchant] has joined us!", 
-"uniques": ["Free [Great Merchant] found in the ruins"], 
-"excludedDifficulties": ["Immortal","Deity"] 
-},
-{
-"name": "squatters wishing to entertain under your rule", 
-"notification": "A [Great Artist] has joined us!", 
-"uniques": ["Free [Great Artist] found in the ruins"], 
-"excludedDifficulties": ["Immortal","Deity"] 
-}, 
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 4
+"weight": 4,
 "uniques": ["This Unit gains [30] XP", "Only available <after [10] turns>"] 
 }, 
 { 
 "name": "survivors (adds population to a city)", 
 "notification": "We have found survivors in the ruins! Population added to [cityName].", 
-"weight": 3
+"weight": 4,
 "uniques": ["[+3] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
 "color": "#81c784" 
 }, 
 { 
 "name": "a stash of gold", 
 "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-"weight": 4
+"weight": 4,
 "uniques": ["Gain [150]-[500] [Gold]"], 
 "color": "#ffeb7f" 
 }, 
 { 
 "name": "discover a lost technology", 
 "notification": "We have discovered some lost technologies in the ruins!", 
-"weight": 2
-"uniques": ["[2] free random researchable Tech(s) from the [Ancient era]", "[1] free random researchable Tech(s) from the [Medieval era]", "[1] free random researchable Tech(s) from the [Industrial era]"],		
+"weight": 2,
+"uniques": ["[2] free random researchable Tech(s) from the [Ancient era]", "[2] free random researchable Tech(s) from the [Medieval era]", "[2] free random researchable Tech(s) from the [Industrial era], "[2] free random researchable Tech(s) from the [Modern era]"],		
 "color": "#7f7fff" 
 }, 
 { 
@@ -89,20 +78,17 @@
 "uniques": ["Hidden when religion is disabled", "Gain enough Faith for [75]% of a Great Prophet","Hidden after generating a Great Prophet",
             "Only available <after founding a Pantheon>", "Only available <after [20] turns>"],
 "color": "#CDDDF4" 
-}
-//Deletions
+},
 {
         "name": "squatters wishing to settle under your rule",
         "notification": "A [Settler] has joined us!",
-        "weight": 0
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+        "weight": 4
+        "uniques": ["Free [Settler] found in the ruins"]
     },
 {
         "name": "squatters willing to work for you",
         "notification": "A [Worker] has joined us!",
-        "weight": 0
-        "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Settler","Chieftain","Warlord","Prince","King","Emperor","Immortal","Deity"]
+        "weight": 4
+        "uniques": ["Free [Worker] found in the ruins"]
     },
 ]
