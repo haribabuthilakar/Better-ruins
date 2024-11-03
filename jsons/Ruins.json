@@ -2,7 +2,7 @@
 { 
 "name": "discover cultural signs",
 "notification": "We have discovered cultural signs in the ruins! (+50 culture)",
-"weight": 4
+"weight": 10
 "uniques": ["Gain [50] [Culture]", "Only available <before founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
@@ -10,19 +10,19 @@
 "name": "discover cultural artifacts",
 "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
 "weight": 4
-"uniques": ["Gain [450] [Culture]", "Only available <before founding a Pantheon>", "Only available <after turn number [30]>"], 
+"uniques": ["Gain [450] [Culture]", "Only available <after turn number [10]>"], 
 "color": "#cf8ff7" 
 },
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 4
+"weight": 1
 "uniques": ["[This Unit] gains [30] XP", "Only available <after turn number [10]>"] 
 }, 
 { 
 "name": "survivors (adds population to a city)", 
 "notification": "We have found survivors in the ruins! Population added to [cityName].", 
-"weight": 3
+"weight": 2
 "uniques": ["[+3] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
 "color": "#81c784" 
 }, 
@@ -36,14 +36,14 @@
 { 
 "name": "discover a lost technology", 
 "notification": "We have discovered some lost technologies in the ruins!", 
-"weight": 4
+"weight": 8
 "uniques": ["[2] free random researchable Tech(s) from the [Ancient era]", "[2] free random researchable Tech(s) from the [Medieval era]", "[2] free random researchable Tech(s) from the [Industrial era]", "[2] free random researchable Tech(s) from the [Modern era]", "[2] free random researchable Tech(s) from the [Renaissance era]", "[2] free random researchable Tech(s) from the [Atomic era]", "[2] free random researchable Tech(s) from the [Modern era]", "[2] free random researchable Tech(s) from the [Information era]" ],		
 "color": "#7f7fff" 
 }, 
 { 
 "name": "advanced weaponry for your explorer", 
 "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
-"weight": 4
+"weight": 6
 "uniques": ["[This Unit] upgrades for free including special upgrades", "[This Unit] gains [10] XP"] 
 }, 
 { 
@@ -55,14 +55,14 @@
 { 
 "name": "discover holy symbols", 
 "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
-"weight": 1
+"weight": 4
 "uniques": ["Only available <when religion is enabled>", "Gain [250]-[500] [Faith]", "Only available <before founding a Pantheon>", "Only available <after turn number [20]>", "Gain [30] [Culture]"],
 "color": "#CDDDF4" 
 }, 
 { 
 "name": "an ancient prophecy", 
 "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
-"weight": 1
+"weight": 4
 "uniques": ["Only available <when religion is enabled>", "Gain enough Faith for [75]% of a Great Prophet", "Only available <after founding a Pantheon>", "Only available <after turn number [20]>"],
 "color": "#CDDDF4" 
 }
