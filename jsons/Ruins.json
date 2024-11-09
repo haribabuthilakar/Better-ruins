@@ -9,7 +9,7 @@
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
-"weight": 4
+"weight": 8
 "uniques": ["Gain [450] [Culture]", "Only available <after turn number [5]>"], 
 "color": "#cf8ff7" 
 },
@@ -22,7 +22,7 @@
 { 
 "name": "survivors (adds population to a city)", 
 "notification": "We have found survivors in the ruins! Population added to [cityName].", 
-"weight": 2
+"weight": 4
 "uniques": ["[+3] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
 "color": "#81c784" 
 }, 
@@ -36,14 +36,14 @@
 { 
 "name": "discover a lost technology", 
 "notification": "We have discovered some lost technologies in the ruins!", 
-"weight": 8
+"weight": 4
 "uniques": ["[2] free random researchable Tech(s) from the [Ancient era]", "[2] free random researchable Tech(s) from the [Medieval era]", "[2] free random researchable Tech(s) from the [Industrial era]", "[2] free random researchable Tech(s) from the [Modern era]", "[2] free random researchable Tech(s) from the [Renaissance era]", "[2] free random researchable Tech(s) from the [Atomic era]", "[2] free random researchable Tech(s) from the [Modern era]", "[2] free random researchable Tech(s) from the [Information era]" ],		
 "color": "#7f7fff" 
 }, 
 { 
 "name": "advanced weaponry for your explorer", 
 "notification": "Our unit finds advanced weaponry hidden in the ruins!", 
-"weight": 6
+"weight": 10
 "uniques": ["[This Unit] upgrades for free including special upgrades", "[This Unit] gains [10] XP"] 
 }, 
 { 
