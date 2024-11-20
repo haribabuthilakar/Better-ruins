@@ -70,7 +70,7 @@
 {
         "name": "squatters wishing to settle under your rule",
         "notification": "A [Settler] has joined us!",
-        "weight": 0
+        "weight": 10
         "uniques": ["Free [Settler] found in the ruins"],
         "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
     },
