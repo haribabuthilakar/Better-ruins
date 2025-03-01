@@ -3,13 +3,13 @@
 "name": "discover cultural signs",
 "notification": "We have discovered cultural signs in the ruins! (+50 culture)",
 "weight": 10
-"uniques": ["Gain [50] [Culture]", "Only available <before founding a Pantheon>"], 
+"uniques": ["Gain [450] [Culture]", "Only available <before founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
 { 
 "name": "discover cultural artifacts",
 "notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
-"weight": 8
+"weight": 10
 "uniques": ["Gain [450] [Culture]", "Only available <after turn number [5]>"], 
 "color": "#cf8ff7" 
 },
@@ -29,15 +29,15 @@
 { 
 "name": "a stash of gold", 
 "notification": "We have found a stash of [goldAmount] Gold in the ruins!", 
-"weight": 10
+"weight": 4
 "uniques": ["Gain [150]-[500] [Gold]"], 
 "color": "#ffeb7f" 
 }, 
 { 
 "name": "discover a lost technology", 
 "notification": "We have discovered some lost technologies in the ruins!", 
-"weight": 4
-"uniques": ["[2] free random researchable Tech(s) from the [Ancient era]", "[2] free random researchable Tech(s) from the [Medieval era]", "[2] free random researchable Tech(s) from the [Industrial era]", "[2] free random researchable Tech(s) from the [Modern era]", "[2] free random researchable Tech(s) from the [Renaissance era]", "[2] free random researchable Tech(s) from the [Atomic era]", "[2] free random researchable Tech(s) from the [Modern era]", "[2] free random researchable Tech(s) from the [Information era]" ],		
+"weight": 10
+"uniques": ["[3] free random researchable Tech(s) from the [Ancient era]", "[3] free random researchable Tech(s) from the [Medieval era]", "[3] free random researchable Tech(s) from the [Industrial era]", "[3] free random researchable Tech(s) from the [Modern era]", "[3] free random researchable Tech(s) from the [Renaissance era]", "[3] free random researchable Tech(s) from the [Atomic era]", "[3] free random researchable Tech(s) from the [Modern era]", "[3] free random researchable Tech(s) from the [Information era]" ],		
 "color": "#7f7fff" 
 }, 
 { 
