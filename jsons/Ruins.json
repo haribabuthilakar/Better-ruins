@@ -1,14 +1,14 @@
 [ 
 { 
 "name": "discover cultural signs",
-"notification": "We have discovered cultural signs in the ruins! (+50 culture)",
+"notification": "We have discovered cultural signs in the ruins! (+450 culture)",
 "weight": 10
 "uniques": ["Gain [450] [Culture]", "Only available <before founding a Pantheon>"], 
 "color": "#cf8ff7" 
 },
 { 
 "name": "discover cultural artifacts",
-"notification": "We have discovered cultural artifacts in the ruins! (+150 culture)",
+"notification": "We have discovered cultural artifacts in the ruins! (+450 culture)",
 "weight": 10
 "uniques": ["Gain [450] [Culture]", "Only available <after turn number [5]>"], 
 "color": "#cf8ff7" 
@@ -16,13 +16,13 @@
 { 
 "name": "your exploring unit receives training", 
 "notification": "An ancient tribe trained us in their ways of combat!", 
-"weight": 1
-"uniques": ["[This Unit] gains [30] XP", "Only available <after turn number [10]>"] 
+"weight": 10
+"uniques": ["[This Unit] upgrades for free including special upgrades", "[This Unit] gains [30] XP", "Only available <after turn number [5]>"] 
 }, 
 { 
 "name": "survivors (adds population to a city)", 
 "notification": "We have found survivors in the ruins! Population added to [cityName].", 
-"weight": 4
+"weight": 1
 "uniques": ["[+3] population in a random city"], // This can't be easily added to cityFilter, as it is non-deterministic		
 "color": "#81c784" 
 }, 
@@ -36,7 +36,7 @@
 { 
 "name": "discover a lost technology", 
 "notification": "We have discovered some lost technologies in the ruins!", 
-"weight": 10
+"weight": 5
 "uniques": ["[3] free random researchable Tech(s) from the [Ancient era]", "[3] free random researchable Tech(s) from the [Medieval era]", "[3] free random researchable Tech(s) from the [Industrial era]", "[3] free random researchable Tech(s) from the [Modern era]", "[3] free random researchable Tech(s) from the [Renaissance era]", "[3] free random researchable Tech(s) from the [Atomic era]", "[3] free random researchable Tech(s) from the [Modern era]", "[3] free random researchable Tech(s) from the [Information era]" ],		
 "color": "#7f7fff" 
 }, 
@@ -56,14 +56,14 @@
 "name": "discover holy symbols", 
 "notification": "We have found holy symbols in the ruins, giving us a deeper understanding of religion! (+[faithAmount] Faith)", 
 "weight": 4
-"uniques": ["Only available <when religion is enabled>", "Gain [250]-[500] [Faith]", "Only available <before founding a Pantheon>", "Only available <after turn number [20]>", "Gain [30] [Culture]"],
+"uniques": ["Only available <when religion is enabled>", "Gain [250]-[500] [Faith]", "Only available <before founding a Pantheon>", "Only available <after turn number [5]>", "Gain [30] [Culture]"],
 "color": "#CDDDF4" 
 }, 
 { 
 "name": "an ancient prophecy", 
 "notification": "We have found an ancient prophecy in the ruins, greatly increasing our spiritual connection! (+[faithAmount] Faith)", 
 "weight": 4
-"uniques": ["Only available <when religion is enabled>", "Gain enough Faith for [75]% of a Great Prophet", "Only available <after founding a Pantheon>", "Only available <after turn number [20]>"],
+"uniques": ["Only available <when religion is enabled>", "Gain enough Faith for [75]% of a Great Prophet", "Only available <after founding a Pantheon>", "Only available <after turn number [5]>"],
 "color": "#CDDDF4" 
 }
 //Deletions
@@ -71,14 +71,14 @@
         "name": "squatters wishing to settle under your rule",
         "notification": "A [Settler] has joined us!",
         "weight": 10
-        "uniques": ["Free [Settler] found in the ruins"],
-        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
+        "uniques": ["Free [Settler] found in the ruins"]
+        //"excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
     },
 {
         "name": "squatters willing to work for you",
         "notification": "A [Worker] has joined us!",
         "weight": 4
-        "uniques": ["Free [Worker] found in the ruins"],
-        "excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
+        "uniques": ["Free [Worker] found in the ruins"]
+        //"excludedDifficulties": ["Warlord","Prince","King","Emperor","Immortal","Deity"]
     },
 ]
